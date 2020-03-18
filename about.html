@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160303028-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date()); gtag('config', 'UA-160303028-1');
+	</script>
+    <title>About Me</title>
+</head>
+<body>
+	<div class="skip-to-content"><a href="#main">Skip to Content</a></div>
+	<header>
+		<!-- Citation: https://stackoverflow.com/questions/32631180/link-contain-no-text-showing-error-in-wave-accessibility-evaluation-tool
+		Citation: https://www.w3schools.com/howto/howto_css_icon_buttons.asp -->
+		<nav>
+			<div class="homebutton">
+				<a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
+			</div>
+			<ul class="nav-list-items">
+				<li>
+					<a href="about.html" class="current">About Me</a>
+				</li>
+				<li>
+					<a href="photography.html">Photography</a>
+				</li>
+				<li>
+					<a href="resume.html">Resume</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>	
+<main>
+	<h1 id = "main">About Me</h1>
+		<p>
+		I am a <a href="https://www.si.umich.edu/programs/master-health-informatics" target="_blank">Master of Health Informatics</a> student at the University of Michigan and a MPrOVE Student Intern at <a href="https://ihpi.umich.edu/featured-work/michigan-program-value-enhancement" target="_blank">Michigan Medicine</a>. I am usually brainstorming new iOS apps with Swift, creating dynamic web pages with CSS, HTML, and JavaScript, analyzing massive healthcare datasets with R, SQL, and Python or creating dynamic dashboards with Tableau.
+		</p><br>
+		<p>
+		When I am not doing these things, I am usually designing offensive and defensive football playbooks, writing a short science fiction <a href="https://www.amazon.com/s?i=stripbooks&rh=p_27%3AEjike+Anusiem&s=relevancerank&text=Ejike+Anusiem&ref=dp_byline_sr_book_1" target="_blank">novel</a>, acting in a short <a href="https://www.imdb.com/name/nm9590980/" target="_blank">film</a>, drawing characters from my favorite shows and movies, or taking <a href="photography.html" target="_blank">pictures</a> of the world on my iPhone. 
+		</p>
+		<h2>Drawings</h2>
+		<p>
+		These are all of the drawings that I have completed from my favorite manga, <a href="https://en.wikipedia.org/wiki/Attack_on_Titan" target="_blank">Attack on Titan</a>. I drew each picture without a reference in under thirty minutes. 
+		</p>
+	<div class="attack-on-titan">
+		<!-- Bertolt Hoover-->
+		<img src="images/bertolt-hoover.jpg" alt="Bertolt Hoover" onmouseover="PlaySound(1)" onmouseout="StopSound(1)">
+		<audio id="character1" src="audio/bertolt-hoover.mp3"></audio>
+    	<!-- Eren Jeager and Mikasa Ackerman-->
+		<img src="images/eren-and-mikasa.jpg" alt="Eren Jaeger and Mikasa Ackerman" onmouseover="PlaySound(2)" onmouseout="StopSound(2)">
+ 		<audio id="character2" src="audio/eren-and-mikasa.mp3"></audio>
+    	<!-- Historia Reiss -->
+		<img src="images/historia-reiss.jpg" alt="Historia Reiss" onmouseover="PlaySound(3)" onmouseout="StopSound(3)">
+    	<audio id="character3" src="audio/historia-reiss.mp3"></audio>
+		<!-- Reiner Braun -->
+		<img src="images/reiner-braun.jpg" alt="Reiner Braun" onmouseover="PlaySound(4)" onmouseout="StopSound(4)">
+    	<audio id="character4" src="audio/reiner-braun.mp3"></audio>
+		<!-- Jean Kristein -->
+		<img src="images/jean-kristein.jpg" alt="Jean Kristein" onmouseover="PlaySound(5)" onmouseout="StopSound(5)">
+    	<audio id="character5" src="audio/jean-kristein.mp3"></audio>
+		<!-- Eren Jeager -->
+		<img src="images/eren-jeager.jpg" alt="Eren Jeager" onmouseover="PlaySound(6)" onmouseout="StopSound(6)">
+    	<audio id="character6" src="audio/eren-jeager.mp3"></audio>
+	</div>
+<div class = "buttonright">
+	<button onclick="topFunction()" class="scrollbutton" title="Go to Top">Top</button>
+</div>
+</main>
+<footer>
+	<p>&copy; Ejike Anusiem 2020</p>
+	<p>"Without sacrifice, there can be no victory." -Sam Witwicky</p><br>
+</footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160303028-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date()); gtag('config', 'UA-160303028-1');
+	</script>
+    <title>Home</title>
+</head>
+<body>
+	<div class="skip-to-content"><a href="#main">Skip to Content</a></div>
+	<header>
+		<!-- Citation: https://stackoverflow.com/questions/32631180/link-contain-no-text-showing-error-in-wave-accessibility-evaluation-tool
+		Citation: https://www.w3schools.com/howto/howto_css_icon_buttons.asp -->
+		<nav>
+			<div class = "homebutton">
+				<a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
+			</div>
+			<ul class = "nav-list-items">
+				<li>
+					<a href="about.html">About Me</a>
+				</li>
+				<li>
+					<a href="photography.html">Photography</a>
+				</li>
+				<li>
+					<a href="resume.html">Resume</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+<main>
+	<h1 id = "main">Ejike Anusiem</h1>
+	<h2>Master of Health Informatics Student</h2>
+	<h3>UX Designer, Programmer, iOS App Developer</h3>
+	<div class= "main">
+	<div class="flip-card">
+		<!-- Citation: https://webaim.org/techniques/keyboard/tabindex -->
+		<div tabindex="0" class="flip-card-items">
+		<div class="flip-card-front">
+		<img id = "headshot" src="images/professional-headshot.jpg" alt="Professional Headshot">
+		</div>
+		<div class="flip-card-back">
+			<img id = "graduation" src="images/csuf-graduation-2018.jpg" alt="CSUF Graduation 2018">
+		</div>
+	</div>
+	</div>
+	</div>
+</main>
+<footer>
+	<p>&copy; Ejike Anusiem 2020</p>
+	<p>"Without sacrifice, there can be no victory." -Sam Witwicky</p><br>
+</footer>
+</body>
+</html>
