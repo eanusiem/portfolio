@@ -25,6 +25,7 @@ header{
 	background-color: #000000;
 }
 
+/*Navigation*/
 nav a{
 	color: #FFFFFF;
 	font-size: 14px;
@@ -327,6 +328,7 @@ h1, h2, h3{
 	font-size: 30px;
 }
 
+/*Navigation*/
 nav a{
 	font-size: 16px;
 }
@@ -426,6 +428,7 @@ h1, h2, h3{
 	font-size: 35px;
 }
 
+/*Navigation*/
 nav a{
 	font-size: 18px;
 }
@@ -492,7 +495,6 @@ input, select, textarea{
 }
 
 /*Footer*/
-
 footer p{
 	font-size: 20px;
 	text-align: right;
@@ -508,7 +510,7 @@ html{
 /*Turns off Parallax Image*/
 body{
     background-attachment: scroll;
-  }
+}
 
 /*Removes animation when focused*/	
 .skip-to-content a{
